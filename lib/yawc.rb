@@ -12,7 +12,7 @@
 # source: https://www.ranks.nl/stopwords
 # see also: https://en.wikipedia.org/wiki/Stop_words
 
-require 'wordsdotdat'
+require 'words2dotdat'
 
 
 
@@ -26,14 +26,14 @@ class Yawc
 
   def initialize(s, level: 2)
     
-    @stopwords = WordsDotDat.stopwords
+    @stopwords = Words2DotDat.stopwords
     
     a = case level
     when 2
       words(s).split
     when 3
       list = words(s).split
-      list - WordsDotDat.words
+      list - Words2DotDat.words
     end
     
     h = a.group_by(&:to_s).\

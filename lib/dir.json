@@ -1,0 +1,29 @@
+{
+  "directory": {
+    "summary": {
+      "schema": "directory[title, file_path,  last_modified, description]/file(name, type, ext, mtime, description)",
+      "recordx_type": "dynarex",
+      "default_key": "name",
+      "title": "Index of /home/james/gem_src/yawc/lib",
+      "file_path": "/home/james/gem_src/yawc/lib",
+      "last_modified": "2022-03-06 11:55:57 +0000",
+      "description": null
+    },
+    "records": [
+      {
+        "file": {
+          "id": "1",
+          "created": "2022-03-06 11:55:57 +0000",
+          "last_modified": null,
+          "body": {
+            "name": "yawc.rb",
+            "type": "file",
+            "ext": ".rb",
+            "mtime": "2020-08-03 10:09:01 +0100",
+            "description": ""
+          }
+        }
+      }
+    ]
+  }
+}
