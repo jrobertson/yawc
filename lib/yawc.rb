@@ -58,7 +58,7 @@ class Yawc
     s.downcase. 
       gsub(/\w+'\w+/,'').  # remove words containing an apostrophe
       gsub(/["']/,'').     # remove quotation marks
-      gsub(/\W[^a-z|#]+(\w+)/,' \1 ').     # remove 
+      gsub(/\W[^a-z|#]*(\w+)/,' \1 ').     # remove 
       #             non-alpabetical characters from start or beginning of words
       gsub(/\s.\s/,' ').                              # remove single digits 
       gsub(/\b(?:#{(ignorewords + @stopwords).join('|')})\b/,'').   # ignore common words

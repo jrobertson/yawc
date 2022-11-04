@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name = 'yawc'
-  s.version = '0.4.0'
+  s.version = '0.4.1'
   s.summary = 'Yet Another Word Counter (YAWC) makes it convenient to ' + 
       'count the number of words in a string and return the result as a ' + 
       'hash object.'
